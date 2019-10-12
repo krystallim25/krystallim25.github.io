@@ -1,0 +1,26 @@
+#mainBackground {
+  content: "";
+  background-image: url("http://getwallpapers.com/wallpaper/full/4/5/d/592543.jpg");
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -10;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.centered {
+  font-family: "Bree Serif", serif;
+  color: black;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#about {
+  background-color: white;
+  padding: 20px;
+}
