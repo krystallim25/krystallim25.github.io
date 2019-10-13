@@ -1,26 +1,82 @@
-#mainBackground {
-  content: "";
-  background-image: url("http://getwallpapers.com/wallpaper/full/4/5/d/592543.jpg");
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  z-index: -10;
-  position: absolute;
+.mainBody {
+  position: relative;
+  height: 1000px;
+}
+
+img {
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
   opacity: 0.5;
 }
 
-.centered {
+h1.child {
   font-family: "Bree Serif", serif;
   color: black;
-  font-size: 70px;
+  /* margin: 0; */
+  font-weight: bolder;
   position: absolute;
   top: 50%;
   left: 50%;
+  font-size: 70px;
   transform: translate(-50%, -50%);
+}
+
+.navbar {
+  opacity: 1;
 }
 
 #about {
   background-color: white;
-  padding: 20px;
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+
+.col-md-4 {
+  padding: 70px;
+}
+
+h2.heading {
+  font-family: "Lora", serif;
+  color: black;
+  border-bottom: 3px solid palevioletred;
+  padding-bottom: 40px;
+  width: 180px;
+}
+
+p {
+  padding: 70px;
+}
+
+#contact {
+  background-color: pink;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+h2.getInTouch {
+  font-family: "Lora", serif;
+  color: black;
+  text-align: center;
+  border-bottom: 3px solid palevioletred;
+  padding-top: 40px;
+}
+
+#contact-form {
+  padding: 244px 500px;
+  position: relative;
+}
+
+#mainBody .btn-dark {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-dark {
+  color: white;
 }
